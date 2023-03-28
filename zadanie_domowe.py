@@ -14,9 +14,9 @@ while True:
     danilodz.append(user)
   
   elif menu == "2":
-    reggin = input("Daj imie uzytkownika: ")
+    pokaz = input("Daj imie uzytkownika: ")
     for z in danilodz:
-      if z["imie"] == reggin:
+      if z["imie"] == pokaz:
           print(z)
 
   elif menu == "3":
