@@ -1,4 +1,4 @@
-FilipPlusAncia = []
+danilodz = []
 
 while True:
   menu = input("1. Dodaj użytkownika  \n 2. Zobacz dane użytkownika  \n  3. Wyświetl wszystkie imiona użytkowników    \n  4. Na poprawę humoru \n  _______________________________________  \n")
