@@ -1,7 +1,7 @@
 danilodz = []
 
 while True:
-  menu = input("1. Dodaj użytkownika  \n 2. Zobacz dane użytkownika  \n  3. Wyświetl wszystkie imiona użytkowników  \n  _______________________________________  \n")
+  menu = input("1. Dodaj użytkownika  \n 2. Zobacz dane użytkownika  \n  3. Wyświetl wszystkie imiona użytkowników    \n  4. Na poprawę humoru \n  _______________________________________  \n")
 
 
 
@@ -24,4 +24,7 @@ while True:
   elif menu == "3":
       for z in danilodz:
         print(z["imie"])
+
+  elif menu == "4":
+    print("https://www.google.com/search?q=mariusz+pudzianowski&tbm=isch&ved=2ahUKEwjU4c-                ykv79AhVCuyoKHVzsCxcQ2-    cCegQIABAA&oq=mariusz+p&gs_lcp=CgNpbWcQARgAMggIABCABBCxAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoHCAAQigUQQzoGCAAQBxAeOgQIABAeOgsIABCABBCxAxCDAToKCAAQigUQsQMQQzoICAAQsQMQgwE6DQgAEIoFELEDEIMBEENQ6ghYiSVgwC9oAXAAeAKAAUyIAf0MkgECMjSYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABAMABAQ&sclient=img&ei=4ZwiZJTtLsL2qgHc2K-4AQ&bih=961&biw=1920&rlz=1C1GCEU_plPL1049PL1049")
   
