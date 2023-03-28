@@ -10,9 +10,7 @@ while True:
     imie  = input("Podaj imię: ")
     mail  = input("Podaj adres email: ")
     wiek = input("Podaj wiek:  ")
-    user={"imie":imie,
-    "mail":mail,
-    "wiek":wiek}
+    user={"imie":imie,"mail":mail,"wiek":wiek}
     danilodz.append(user)
   
   elif menu == "2":
@@ -26,5 +24,6 @@ while True:
         print(z["imie"])
 
   elif menu == "4":
-    print("https://www.google.com/search?q=mariusz+pudzianowski&tbm=isch&ved=2ahUKEwjU4c-                ykv79AhVCuyoKHVzsCxcQ2-    cCegQIABAA&oq=mariusz+p&gs_lcp=CgNpbWcQARgAMggIABCABBCxAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoHCAAQigUQQzoGCAAQBxAeOgQIABAeOgsIABCABBCxAxCDAToKCAAQigUQsQMQQzoICAAQsQMQgwE6DQgAEIoFELEDEIMBEENQ6ghYiSVgwC9oAXAAeAKAAUyIAf0MkgECMjSYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABAMABAQ&sclient=img&ei=4ZwiZJTtLsL2qgHc2K-4AQ&bih=961&biw=1920&rlz=1C1GCEU_plPL1049PL1049")
+    print("https://www.youtube.com/watch?v=wGeFVtLo1RA")
+    print("Have an incredibly gorgeus day")
   
