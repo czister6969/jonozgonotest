@@ -1,0 +1,15 @@
+file = "mecz.txt"
+
+
+
+def zerardpike():
+    
+zmiana = 0
+    with open("[sciezka do pliku]", 'r') as file:
+        results = file.readline()
+        
+    for i, result in enumerate(results):
+        if file.readline[i] != file.readline[i+1]:
+            zmiana +=1
+
+return zmiana
